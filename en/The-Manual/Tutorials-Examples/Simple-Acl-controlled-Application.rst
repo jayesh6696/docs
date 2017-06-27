@@ -12,6 +12,7 @@ tutorial is a brief introduction to the
 
 What you will need
 
+
 #. A running web server. We're going to assume you're using Apache,
    though the instructions for using other servers should be very
    similar. We might have to play a little with the server
@@ -116,7 +117,9 @@ components. First add a login and logout action to your
     function logout() {
         //Leave empty for now.
     }
-
+   functio users(){
+   
+   }
 Then create the following view file for login at
 app/views/users/login.ctp:
 
